@@ -1,0 +1,87 @@
+
+.body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(45deg,#6b6de06e,#0664F3);
+}
+
+.header {
+    background-image: linear-gradient(45deg,#6b6de06e,#0664F3);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    height: 80px;
+
+}
+
+.linkMenu {
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+.linkHome {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+.main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.telaLogin {
+    background-color: #000000cc;
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.telaLogin input {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+}
+
+.meuBotao {
+    padding: 10px 20px;
+    background-color: #0004f763;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.meuBotao:hover {
+    background-color: #0004f7;
+}
+
+.footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 3px 0;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+    border-top: 2px solid #444;
+    margin-top: auto; 
+}
+.span:hover{
+     border-radius: 15px;
+     background-color: rgba(0, 0, 0, 0.993);
+     position: relative;
+     cursor: pointer;
+}
